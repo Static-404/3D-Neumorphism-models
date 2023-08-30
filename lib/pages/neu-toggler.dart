@@ -46,6 +46,7 @@ class _NeuTogglerState extends State<NeuToggler> {
                   ]),
             ),
             const SizedBox(height: 50,),
+            //The Buttons
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
