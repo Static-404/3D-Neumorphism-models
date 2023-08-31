@@ -43,7 +43,18 @@ class _NeuTogglerState extends State<NeuToggler> {
                         spreadRadius: 1.0,
                         color: darkMode ? Colors.grey.shade700 : Colors.white
                     ),
-                  ]),
+                  ],
+                  gradient: LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        darkMode ? Colors.grey.shade800 : Colors.grey.shade300,
+                        darkMode ? Colors.grey.shade900 : Colors.grey.shade300,
+                        darkMode ? Colors.grey.shade900 : Colors.grey.shade500,
+                        darkMode ? Colors.grey.shade800 : Colors.grey.shade500,
+                      ],
+                  ),
+              ),
             ),
             const SizedBox(height: 50,),
             //The Buttons
